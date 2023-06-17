@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "vazir";
+    src: url(/font/Vazir.ttf);
+}
+@font-face {
+    font-family: "lalezar";
+    src: url(/font/Lalezar.ttf);
+}
+body{
+    font-family: "vazir" , sans-serif ;
+}
+.lalezar{
+    font-family: "lalezar";
+}
+.h-heading1{
+    text-shadow: 3px 3px #0d6efd,4px 4px white;
+    
+}
+.c-Advantages{
+    transition: all .3s;
+}
+.c-Advantages:hover{
+    transform: scale(1.05);
+}
+.c-Available{
+    transition: all .3s;
+}
+.c-Available:hover{
+    transform: scale(1.05);
+}
+
+
